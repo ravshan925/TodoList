@@ -1,0 +1,135 @@
+@import url(navbar.css);
+@import url(footer.css);
+
+/* ///////////// Fonts ///////////// */
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=Inter:wght@400;500;700;900&family=Lato:wght@400;700&family=Mohave:wght@400;600;700&family=Montserrat:wght@300;600;700;900&family=Nova+Slim&family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Poppins:wght@400;500;600;700;900&family=Quattrocento:wght@400;700&display=swap");
+
+/* //////////// MAIN CSS ///////////// */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.main {
+  height: 65vh;
+  margin-top: 90px;
+  margin-left: 220px;
+}
+.btn {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  background: #b47aea;
+  transition: 0.3s ease-in;
+}
+.todo-form__btn {
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 26px;
+  color: #fff;
+  border: none;
+  background: #b47aea;
+  transition: 0.3s ease-in;
+}
+.todo-form__btn:hover {
+  color: #9f57e2;
+  background: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+.btn:hover {
+  color: #fff;
+  background: rgb(224, 54, 54);
+}
+.btn_add-icon {
+  color: #fff;
+}
+#btn-task {
+  border: none;
+  background: inherit;
+}
+.todos-list {
+  width: 400px;
+  margin-top: 25px;
+  /* border: 2px solid red; */
+}
+.todos-list > .todos-list__item {
+  display: flex;
+  align-items: center;
+  margin: 2px 0px;
+  color: #5e5e5e;
+}
+.todo-form{
+  /* height: 10vh; */
+}
+
+.todos-list__item {
+  text-align: center;
+}
+.todos__check {
+  margin: 0px 15px 0px 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  border: 2px solid #1e9cea;
+}
+
+.todos__text {
+  font-weight: 500;
+  font-size: 18px;
+}
+.todo-form__input {
+  border: none;
+  width: 260px;
+  margin-left: 10px;
+  font-size: 24px;
+  color: #9f57e2;
+}
+::placeholder {
+  color: #b47aea;
+  opacity: 0.7;
+}
+.todo-form__input:focus {
+  margin-left: 10px !important;
+  outline: none !important;
+}
+.btn-reset {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #b47aea;
+}
+.btn-reset:hover {
+  color: #9f57e2;
+}
+.listText {
+  color: red;
+}
+.todos__check:checked + p.todos__text {
+  transition: 0.7;
+  text-decoration: line-through 2px   #ef6161;
+  color: #7e7e7e;
+}

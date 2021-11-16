@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-style: normal;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px 0 50px;
+}
+/* PROFILE */
+.nav_profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile_title-name {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #5e5e5e;
+}
+.nav_task {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #ef6161;
+}
+/* TITLE  */
+.nav_title-name {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  color: #5e5e5e;
+}
+
+/* SUBMIT AREA  */
+.nav_submit {
+  width: 220px;
+  padding-left: 100px;
+}
+.nav_log {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #b47aea;
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.nav_log:hover {
+  color: #9f57e2;
+}
+

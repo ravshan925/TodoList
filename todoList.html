@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TODO LIST</title>
+      <!-- ///////////////// css file link ///////////////// -->
+      <link rel="stylesheet" href="css/style.css">
+      <!--// ICON LINK //--->
+      <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+      <header class="header">
+            <nav class="navbar">
+                  <div class="nav_profile">
+                        <a href="#"><img src="img/profil.jpg" alt="" width="73"></a>
+                        <div class="nav_profile-title">
+                              <h4 class="profile_title-name">Hi Ravshan 👋🏽</h4>
+                              <p class="nav_task">4 tasks pending</p>
+                        </div>
+                  </div>
+                  <div class="nav_title">
+                        <h2 class="nav_title-name">Todo List</h2>
+                  </div>
+                  <div class="nav_submit">
+                        <button class="nav_log">Log out</button>
+                  </div>
+            </nav>
+      </header>
+      <section class="main">
+            
+            <div class="main_tasks">
+                  <ul class="main-tasks" id="list">
+                        <!-- <li class="task">
+                              <button onclick="" id="btnTrash" (click) ="removeItem()">
+                                    <i class='trash bx bx-trash bx-sm' id="trash"></i>
+                              </button>
+                              <input type="checkbox" name="" id="checkbox" class="checkbox">
+                              <p class="task-txt" style="text-decoration: line-through;">Morning walk</p>
+                        </li> -->
+                      
+                  </ul>
+                  <form class="todo-form">
+                        <button type="submit" class="todo-form__btn">&plus;</button>
+                        <input type="text" name="" class="todo-form__input" id="" placeholder="What to do ?" required>
+                        <button id="btnErase" class="btn" type="">Erase All</button>
+                        <ul class="todos-list"></ul>
+                        
+                  </form>
+            </div>
+      </section>
+      <footer class="footer">
+            <!-- <hr> -->
+            <div class="social_links">
+                  <a href="https://www.facebook.com/ravshan925/">
+                        <i class='icon bx bxl-facebook bx-md'></i>
+                  </a>
+                  <a href="https://twitter.com/?lang=en">
+                        <i class='icon bx bxl-twitter bx-md'></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ravshan-abdukodirov-b301b21aa/">
+                        <i class='icon bx bxl-linkedin bx-md'></i>
+                  </a>
+                  <a href="https://www.youtube.com/">
+                        <i class='icon bx bxl-youtube bx-md'></i>
+                  </a>
+            </div>
+            <!-- <hr> -->
+            <div class="footer_main">
+                  <p class="footer_title">&copy;Copyright Reesby. All Rights Reserved.</p>
+                  <p class="footer_author">Powered by Create Ravshan</p>
+            </div>
+      </footer>
+      <!-- ///////////////// JS file Link ///////////////// -->
+      <script src="js/index.js"></script>
+</body>
+
+</html>

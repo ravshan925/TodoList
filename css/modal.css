@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=Inter:wght@400;500;700;900&family=Lato:wght@400;700&family=Mohave:wght@400;600;700&family=Montserrat:wght@300;600;700;900&family=Nova+Slim&family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Poppins:wght@400;500;600;700;900&family=Quattrocento:wght@400;700&display=swap");
+/*////////////// MAIN CSS ////////////// */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+
+  color: #000000;
+  background: #e5e5e5;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: #5e5e5e;
+  font-weight: 700;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* CSS codes */
+.header {
+  background: #ffffff;
+}
+.main-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+.title {
+  font-size: 72px;
+  line-height: 87px;
+}
+.subtitle {
+  font-size: 24px;
+  line-height: 29px;
+}
+.btn {
+  background: #b47aea;
+  border-radius: 15px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  margin-top: 20px;
+  padding: 8px 15px;
+  border: none;
+  color: #ffffff;
+  transition: .3s ease;
+}
+.btn:hover{
+      color: #fff;
+      background: #8c44cf;
+}
